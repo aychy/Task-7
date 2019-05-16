@@ -1,8 +1,8 @@
 # Task-7
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <title>Index Page</title>
 
@@ -15,11 +15,12 @@
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
-</head>
-<body>
+    </head>
+    <body>
 
 
-<div class="container-fluid">
+    <div class="container-fluid">
+    
     <b>Task 7</b>
 
     <div class="row mt-2">
@@ -31,11 +32,11 @@
             </form>
         </div>
     </div>
-</div>
-</body>
-</html>
+    </div>
+    </body>
+    </html>
 
-<script>
+    <script>
     $(document).ready(function () {
         $('#submitButton').on('click', function input() {
             var inputText = $('#inputText').val().trim();
@@ -44,4 +45,4 @@
             }
         });
     });
-</script>
+    </script>
